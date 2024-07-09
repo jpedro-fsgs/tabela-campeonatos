@@ -1,0 +1,67 @@
+@import "../App.scss";
+
+.posicao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  img {
+    height: auto;
+    width: 75px;
+    max-height: 75px;
+    object-fit: contain;
+  }
+  h2 {
+    font-size: 2rem;
+    min-width: 37px;
+    text-align: center;
+  }
+  &.par {
+    background-color: $primary;
+  }
+  &.impar {
+    background-color: $secondary;
+  }
+
+  &.libertadores {
+    border-left: 10px solid #008000;
+  }
+  &.pre-libertadores {
+    border-left: 10px solid #00008b;
+  }
+  &.sulamericana {
+    border-left: 10px solid #5e5eff;
+  }
+  &.pre-sulamericana {
+    border-left: 10px solid #add8e6;
+  }
+  &.limbo {
+    border-left: 10px solid #808080;
+  }
+  &.rebaixamento {
+    border-left: 10px solid #ff0000;
+  }
+
+}
+
+.up {
+  background-color: green;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.down {
+  background-color: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.same {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+}
