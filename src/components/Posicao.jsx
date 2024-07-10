@@ -1,21 +1,26 @@
 import "./Posicao.scss"
-
+import sound from "../assets/sound.mp3"
 
 
 function Posicao(props){
-    function handleClick(e){
-        console.log(e.target.innerText)
-    }
-    function handleDoubleClick(e){
-        alert(e.target.innerText)
+
+    function handleDoubleClick(nome){
+        if(["Corinthians", "Tottenham"].includes(nome)){
+            new Audio(sound).play();
+            console.log(`⭐${nome}⭐`);
+            return;
+        }
+        if(["Palmeiras", "Sao Paulo", "Santos", "Arsenal", "Chelsea"].includes(nome)){
+            console.log("🗑️");
+            return;
+        }
     }
     
     return(
         <div 
         className={"posicao " + (props.index % 2 ? "par":"impar")} 
         style={{borderLeft: "10px solid " + props.corClassificacao}}
-        onClick={(e) => handleClick(e)}
-        onDoubleClick={(e) => handleDoubleClick(e)}
+        onDoubleClick={(e) => handleDoubleClick(props.name)}
         >
             <span style={{display: "flex", alignItems: "center", gap: "15px"}}>
                 <div className={props.status}></div>

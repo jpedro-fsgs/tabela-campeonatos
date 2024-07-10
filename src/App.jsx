@@ -5,7 +5,7 @@ import "./App.scss"
 import { ligas } from "./assets/leagueData";
 
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Selector from "./components/Selector";
 
 
@@ -13,7 +13,12 @@ import Selector from "./components/Selector";
 function App() {
   const [league, setLeague] = useState(ligas[Object.keys(ligas)[0]]);
   const [season, setSeason] = useState(ligas[Object.keys(ligas)[0]][0]);
-  document.title = league[0].response[0].league.name;
+
+  useEffect(() => {
+    const {country, name} = league[0].response[0].league;
+    document.title = `${country} ${name} `;
+  }, [league])
+  
   return (
     <div className="container">
       <Selector league={league} setLeague={setLeague} season={season} setSeason={setSeason}/>

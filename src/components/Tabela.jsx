@@ -37,6 +37,8 @@ function Tabela(props) {
     competicoesCores[competicao] = "#808080";
   });
 
+  props.times.sort((a, b) => a.rank - b.rank)
+
   return (
     <div className="tabela">
       {props.times.map((time, index) => (

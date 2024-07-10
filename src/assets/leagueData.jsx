@@ -28,6 +28,21 @@ import pl2021 from "./premier-league/2021.json";
 import pl2022 from "./premier-league/2022.json";
 import pl2023 from "./premier-league/2023.json";
 import pl2024 from "./premier-league/2024.json";
+import laliga2010 from "./la-liga/2010.json";
+import laliga2011 from "./la-liga/2011.json";
+import laliga2012 from "./la-liga/2012.json";
+import laliga2013 from "./la-liga/2013.json";
+import laliga2014 from "./la-liga/2014.json";
+import laliga2015 from "./la-liga/2015.json";
+import laliga2016 from "./la-liga/2016.json";
+import laliga2017 from "./la-liga/2017.json";
+import laliga2018 from "./la-liga/2018.json";
+import laliga2019 from "./la-liga/2019.json";
+import laliga2020 from "./la-liga/2020.json";
+import laliga2021 from "./la-liga/2021.json";
+import laliga2022 from "./la-liga/2022.json";
+import laliga2023 from "./la-liga/2023.json";
+import laliga2024 from "./la-liga/2024.json";
 
 const brasileiroTemporadas = [
   br2010,
@@ -62,8 +77,25 @@ const premierLeagueTemporadas = [
   pl2022,
   pl2023,
 ];
+const laLigaTemporadas = [
+  laliga2010,
+  laliga2011,
+  laliga2012,
+  laliga2013,
+  laliga2014,
+  laliga2015,
+  laliga2016,
+  laliga2017,
+  laliga2018,
+  laliga2019,
+  laliga2020,
+  laliga2021,
+  laliga2022,
+  laliga2023,
+];
 
 export const ligas = {
   brasileiro: brasileiroTemporadas.reverse(),
-  premierLeague: premierLeagueTemporadas.reverse()
+  premierLeague: premierLeagueTemporadas.reverse(),
+  laLiga: laLigaTemporadas.reverse()
 };

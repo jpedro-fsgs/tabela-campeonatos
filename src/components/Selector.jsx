@@ -10,7 +10,6 @@ function Selector(props) {
         onChange={(e) => {
           props.setLeague(ligas[e.target.value]);
           props.setSeason(ligas[e.target.value][0]);
-          document.title = ligas[e.target.value][0].response[0].league.name;
 
         }}
       >
@@ -36,7 +35,7 @@ function Selector(props) {
               value={index}
               key={`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}`}
             >
-              {`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}${dadosLiga.id === 39 ? "/" + (dadosLiga.season + 1): ""}`}
+              {`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}${dadosLiga.id !== 71 ? "/" + (dadosLiga.season + 1): ""}`}
             </option>
           );
         })}
