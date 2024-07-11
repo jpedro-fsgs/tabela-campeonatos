@@ -5,20 +5,23 @@
   align-items: center;
   justify-content: space-between;
   color: black;
+  text-align: center;
 
   border-radius: 5px;
   padding: 5px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  img {
+  .time-img {
     height: auto;
-    width: 75px;
-    max-height: 75px;
+    width: 90px;
+    max-height: 90px;
     object-fit: contain;
   }
-  h2 {
+  .numero-posicao {
     font-size: 2rem;
     min-width: 37px;
-    text-align: center;
+  }
+  .nome-time {
+    font-size: 2rem;
   }
   &.par {
     background-color: $primary;
@@ -45,6 +48,14 @@
   &.rebaixamento {
     border-left: 10px solid #ff0000;
   }
+  .pontos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    >p{
+      margin: 0;
+    }
+  }
 
 }
 
@@ -64,4 +75,17 @@
   background-color: grey;
   width: 10px;
   height: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .posicao>h2 {
+    display: none;
+  }
+  .posicao{
+    justify-content: space-around;
+  }
+  .pontos{
+    flex-direction: column;
+    align-items: center;
+  }
 }

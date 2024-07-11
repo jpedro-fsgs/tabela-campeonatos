@@ -35,7 +35,7 @@ function Selector(props) {
               value={index}
               key={`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}`}
             >
-              {`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}${dadosLiga.id !== 71 ? "/" + (dadosLiga.season + 1): ""}`}
+              {`${dadosLiga.country} ${dadosLiga.name} ${dadosLiga.season}${![71, 72].includes(dadosLiga.id) ? "/" + (dadosLiga.season + 1): ""}`}
             </option>
           );
         })}

@@ -1,6 +1,6 @@
 import Tabela from "./components/Tabela";
 import Titulo from "./components/Titulo";
-import "./App.scss"
+import "./App.scss";
 
 import { ligas } from "./assets/leagueData";
 

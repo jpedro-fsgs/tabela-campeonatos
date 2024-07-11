@@ -1,0 +1,743 @@
+{
+  "get": "standings",
+  "parameters": { "league": "72", "season": "2021" },
+  "errors": [],
+  "results": 1,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "league": {
+        "id": 72,
+        "name": "Serie B",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/72.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2021,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 120,
+                "name": "Botafogo",
+                "logo": "https://media.api-sports.io/football/teams/120.png"
+              },
+              "points": 70,
+              "goalsDiff": 25,
+              "group": "Serie B",
+              "form": "DWWDW",
+              "status": "same",
+              "description": "Promotion - Serie A",
+              "all": {
+                "played": 38,
+                "win": 20,
+                "draw": 10,
+                "lose": 8,
+                "goals": { "for": 56, "against": 31 }
+              },
+              "home": {
+                "played": 19,
+                "win": 15,
+                "draw": 2,
+                "lose": 2,
+                "goals": { "for": 39, "against": 13 }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 8,
+                "lose": 6,
+                "goals": { "for": 17, "against": 18 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 151,
+                "name": "Goias",
+                "logo": "https://media.api-sports.io/football/teams/151.png"
+              },
+              "points": 65,
+              "goalsDiff": 17,
+              "group": "Serie B",
+              "form": "DWWWD",
+              "status": "same",
+              "description": "Promotion - Serie A",
+              "all": {
+                "played": 38,
+                "win": 17,
+                "draw": 14,
+                "lose": 7,
+                "goals": { "for": 48, "against": 31 }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 7,
+                "lose": 2,
+                "goals": { "for": 30, "against": 16 }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 7,
+                "lose": 5,
+                "goals": { "for": 18, "against": 15 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 147,
+                "name": "Coritiba",
+                "logo": "https://media.api-sports.io/football/teams/147.png"
+              },
+              "points": 64,
+              "goalsDiff": 14,
+              "group": "Serie B",
+              "form": "LLWLL",
+              "status": "same",
+              "description": "Promotion - Serie A",
+              "all": {
+                "played": 38,
+                "win": 18,
+                "draw": 10,
+                "lose": 10,
+                "goals": { "for": 49, "against": 35 }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 5,
+                "lose": 3,
+                "goals": { "for": 29, "against": 14 }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 5,
+                "lose": 7,
+                "goals": { "for": 20, "against": 21 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 145,
+                "name": "Avai",
+                "logo": "https://media.api-sports.io/football/teams/145.png"
+              },
+              "points": 64,
+              "goalsDiff": 9,
+              "group": "Serie B",
+              "form": "WWLDD",
+              "status": "same",
+              "description": "Promotion - Serie A",
+              "all": {
+                "played": 38,
+                "win": 18,
+                "draw": 10,
+                "lose": 10,
+                "goals": { "for": 44, "against": 35 }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 6,
+                "lose": 3,
+                "goals": { "for": 24, "against": 14 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 4,
+                "lose": 7,
+                "goals": { "for": 20, "against": 21 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 150,
+                "name": "CSA",
+                "logo": "https://media.api-sports.io/football/teams/150.png"
+              },
+              "points": 62,
+              "goalsDiff": 15,
+              "group": "Serie B",
+              "form": "WWDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 18,
+                "draw": 8,
+                "lose": 12,
+                "goals": { "for": 48, "against": 33 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 6,
+                "lose": 4,
+                "goals": { "for": 28, "against": 15 }
+              },
+              "away": {
+                "played": 19,
+                "win": 9,
+                "draw": 2,
+                "lose": 8,
+                "goals": { "for": 20, "against": 18 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 138,
+                "name": "Guarani Campinas",
+                "logo": "https://media.api-sports.io/football/teams/138.png"
+              },
+              "points": 60,
+              "goalsDiff": 13,
+              "group": "Serie B",
+              "form": "DLWWD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 16,
+                "draw": 12,
+                "lose": 10,
+                "goals": { "for": 54, "against": 41 }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 4,
+                "lose": 5,
+                "goals": { "for": 28, "against": 17 }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 8,
+                "lose": 5,
+                "goals": { "for": 26, "against": 24 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 146,
+                "name": "CRB",
+                "logo": "https://media.api-sports.io/football/teams/146.png"
+              },
+              "points": 60,
+              "goalsDiff": 8,
+              "group": "Serie B",
+              "form": "LWLWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 16,
+                "draw": 12,
+                "lose": 10,
+                "goals": { "for": 47, "against": 39 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 9,
+                "lose": 2,
+                "goals": { "for": 26, "against": 17 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 3,
+                "lose": 8,
+                "goals": { "for": 21, "against": 22 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 755,
+                "name": "Nautico Recife",
+                "logo": "https://media.api-sports.io/football/teams/755.png"
+              },
+              "points": 53,
+              "goalsDiff": 0,
+              "group": "Serie B",
+              "form": "DLWDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 14,
+                "draw": 11,
+                "lose": 13,
+                "goals": { "for": 50, "against": 50 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 6,
+                "lose": 5,
+                "goals": { "for": 30, "against": 25 }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 5,
+                "lose": 8,
+                "goals": { "for": 20, "against": 25 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 142,
+                "name": "Vila Nova",
+                "logo": "https://media.api-sports.io/football/teams/142.png"
+              },
+              "points": 51,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "WWDLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 15,
+                "lose": 11,
+                "goals": { "for": 35, "against": 36 }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 10,
+                "lose": 3,
+                "goals": { "for": 13, "against": 11 }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 5,
+                "lose": 8,
+                "goals": { "for": 22, "against": 25 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 133,
+                "name": "Vasco DA Gama",
+                "logo": "https://media.api-sports.io/football/teams/133.png"
+              },
+              "points": 49,
+              "goalsDiff": -9,
+              "group": "Serie B",
+              "form": "LDDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 13,
+                "draw": 10,
+                "lose": 15,
+                "goals": { "for": 43, "against": 52 }
+              },
+              "home": {
+                "played": null,
+                "win": null,
+                "draw": null,
+                "lose": null,
+                "goals": { "for": null, "against": null }
+              },
+              "away": {
+                "played": null,
+                "win": null,
+                "draw": null,
+                "lose": null,
+                "goals": { "for": null, "against": null }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 139,
+                "name": "Ponte Preta",
+                "logo": "https://media.api-sports.io/football/teams/139.png"
+              },
+              "points": 49,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "WWLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 13,
+                "lose": 13,
+                "goals": { "for": 39, "against": 40 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 7,
+                "lose": 3,
+                "goals": { "for": 26, "against": 17 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 6,
+                "lose": 10,
+                "goals": { "for": 13, "against": 23 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 1223,
+                "name": "Operario-PR",
+                "logo": "https://media.api-sports.io/football/teams/1223.png"
+              },
+              "points": 48,
+              "goalsDiff": -11,
+              "group": "Serie B",
+              "form": "WLLWD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 13,
+                "draw": 9,
+                "lose": 16,
+                "goals": { "for": 35, "against": 46 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 4,
+                "lose": 6,
+                "goals": { "for": 22, "against": 21 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 5,
+                "lose": 10,
+                "goals": { "for": 13, "against": 25 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 1211,
+                "name": "Brusque",
+                "logo": "https://media.api-sports.io/football/teams/1211.png"
+              },
+              "points": 48,
+              "goalsDiff": -12,
+              "group": "Serie B",
+              "form": "DWWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 13,
+                "draw": 9,
+                "lose": 16,
+                "goals": { "for": 44, "against": 56 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": { "for": 25, "against": 16 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 4,
+                "lose": 11,
+                "goals": { "for": 19, "against": 40 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 135,
+                "name": "Cruzeiro",
+                "logo": "https://media.api-sports.io/football/teams/135.png"
+              },
+              "points": 48,
+              "goalsDiff": -2,
+              "group": "Serie B",
+              "form": "DDLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 10,
+                "draw": 18,
+                "lose": 10,
+                "goals": { "for": 42, "against": 44 }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 10,
+                "lose": 4,
+                "goals": { "for": 24, "against": 24 }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 8,
+                "lose": 6,
+                "goals": { "for": 18, "against": 20 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 155,
+                "name": "Sampaio Correa",
+                "logo": "https://media.api-sports.io/football/teams/155.png"
+              },
+              "points": 47,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "LDLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 11,
+                "lose": 15,
+                "goals": { "for": 41, "against": 42 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": { "for": 25, "against": 16 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 6,
+                "lose": 10,
+                "goals": { "for": 16, "against": 26 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 148,
+                "name": "Londrina",
+                "logo": "https://media.api-sports.io/football/teams/148.png"
+              },
+              "points": 44,
+              "goalsDiff": -10,
+              "group": "Serie B",
+              "form": "WLWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 11,
+                "lose": 16,
+                "goals": { "for": 31, "against": 41 }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 5,
+                "lose": 8,
+                "goals": { "for": 17, "against": 19 }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 6,
+                "lose": 8,
+                "goals": { "for": 14, "against": 22 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 1198,
+                "name": "remo",
+                "logo": "https://media.api-sports.io/football/teams/1198.png"
+              },
+              "points": 43,
+              "goalsDiff": -11,
+              "group": "Serie B",
+              "form": "DDLLL",
+              "status": "same",
+              "description": "Relegation - Serie C",
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 10,
+                "lose": 17,
+                "goals": { "for": 31, "against": 42 }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 4,
+                "lose": 8,
+                "goals": { "for": 11, "against": 13 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 6,
+                "lose": 9,
+                "goals": { "for": 20, "against": 29 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 136,
+                "name": "Vitoria",
+                "logo": "https://media.api-sports.io/football/teams/136.png"
+              },
+              "points": 40,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "LLWWD",
+              "status": "same",
+              "description": "Relegation - Serie C",
+              "all": {
+                "played": 38,
+                "win": 8,
+                "draw": 16,
+                "lose": 14,
+                "goals": { "for": 31, "against": 32 }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 7,
+                "lose": 7,
+                "goals": { "for": 18, "against": 14 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 9,
+                "lose": 7,
+                "goals": { "for": 13, "against": 18 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 7772,
+                "name": "Confian\u00e7a",
+                "logo": "https://media.api-sports.io/football/teams/7772.png"
+              },
+              "points": 37,
+              "goalsDiff": -13,
+              "group": "Serie B",
+              "form": "DLDDW",
+              "status": "same",
+              "description": "Relegation - Serie C",
+              "all": {
+                "played": 38,
+                "win": 9,
+                "draw": 10,
+                "lose": 19,
+                "goals": { "for": 35, "against": 48 }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 3,
+                "lose": 10,
+                "goals": { "for": 20, "against": 25 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 7,
+                "lose": 9,
+                "goals": { "for": 15, "against": 23 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 141,
+                "name": "Brasil DE Pelotas",
+                "logo": "https://media.api-sports.io/football/teams/141.png"
+              },
+              "points": 23,
+              "goalsDiff": -29,
+              "group": "Serie B",
+              "form": "LLLLL",
+              "status": "same",
+              "description": "Relegation - Serie C",
+              "all": {
+                "played": 38,
+                "win": 4,
+                "draw": 11,
+                "lose": 23,
+                "goals": { "for": 23, "against": 52 }
+              },
+              "home": {
+                "played": 19,
+                "win": 4,
+                "draw": 6,
+                "lose": 9,
+                "goals": { "for": 14, "against": 21 }
+              },
+              "away": {
+                "played": 19,
+                "win": 0,
+                "draw": 5,
+                "lose": 14,
+                "goals": { "for": 9, "against": 31 }
+              },
+              "update": "2021-11-28T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

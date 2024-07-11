@@ -1,0 +1,743 @@
+{
+  "get": "standings",
+  "parameters": { "league": "72", "season": "2012" },
+  "errors": [],
+  "results": 1,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "league": {
+        "id": 72,
+        "name": "Serie B",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/72.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2012,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 151,
+                "name": "Goias",
+                "logo": "https://media.api-sports.io/football/teams/151.png"
+              },
+              "points": 78,
+              "goalsDiff": 38,
+              "group": "Serie B",
+              "form": "WDWDW",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 23,
+                "draw": 9,
+                "lose": 6,
+                "goals": { "for": 75, "against": 37 }
+              },
+              "home": {
+                "played": 19,
+                "win": 15,
+                "draw": 4,
+                "lose": 0,
+                "goals": { "for": 39, "against": 8 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": { "for": 36, "against": 29 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 140,
+                "name": "Criciuma",
+                "logo": "https://media.api-sports.io/football/teams/140.png"
+              },
+              "points": 73,
+              "goalsDiff": 21,
+              "group": "Serie B",
+              "form": "DDWLL",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 22,
+                "draw": 7,
+                "lose": 9,
+                "goals": { "for": 78, "against": 57 }
+              },
+              "home": {
+                "played": 19,
+                "win": 14,
+                "draw": 1,
+                "lose": 4,
+                "goals": { "for": 42, "against": 29 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 6,
+                "lose": 5,
+                "goals": { "for": 36, "against": 28 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 134,
+                "name": "Atletico Paranaense",
+                "logo": "https://media.api-sports.io/football/teams/134.png"
+              },
+              "points": 71,
+              "goalsDiff": 28,
+              "group": "Serie B",
+              "form": "DDWDW",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 8,
+                "lose": 9,
+                "goals": { "for": 65, "against": 37 }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 6,
+                "lose": 2,
+                "goals": { "for": 31, "against": 15 }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 2,
+                "lose": 7,
+                "goals": { "for": 34, "against": 22 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 136,
+                "name": "Vitoria",
+                "logo": "https://media.api-sports.io/football/teams/136.png"
+              },
+              "points": 71,
+              "goalsDiff": 16,
+              "group": "Serie B",
+              "form": "DDLWL",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 8,
+                "lose": 9,
+                "goals": { "for": 59, "against": 43 }
+              },
+              "home": {
+                "played": 19,
+                "win": 13,
+                "draw": 3,
+                "lose": 3,
+                "goals": { "for": 36, "against": 19 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": { "for": 23, "against": 24 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 7786,
+                "name": "S\u00e3o Caetano",
+                "logo": "https://media.api-sports.io/football/teams/7786.png"
+              },
+              "points": 71,
+              "goalsDiff": 20,
+              "group": "Serie B",
+              "form": "WDWWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 20,
+                "draw": 11,
+                "lose": 7,
+                "goals": { "for": 58, "against": 38 }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 6,
+                "lose": 4,
+                "goals": { "for": 27, "against": 18 }
+              },
+              "away": {
+                "played": 19,
+                "win": 11,
+                "draw": 5,
+                "lose": 3,
+                "goals": { "for": 31, "against": 20 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 795,
+                "name": "Joinville",
+                "logo": "https://media.api-sports.io/football/teams/795.png"
+              },
+              "points": 60,
+              "goalsDiff": 18,
+              "group": "Serie B",
+              "form": "LDLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 17,
+                "draw": 9,
+                "lose": 12,
+                "goals": { "for": 58, "against": 40 }
+              },
+              "home": {
+                "played": 19,
+                "win": 13,
+                "draw": 5,
+                "lose": 1,
+                "goals": { "for": 36, "against": 12 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 4,
+                "lose": 11,
+                "goals": { "for": 22, "against": 28 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 145,
+                "name": "Avai",
+                "logo": "https://media.api-sports.io/football/teams/145.png"
+              },
+              "points": 59,
+              "goalsDiff": 2,
+              "group": "Serie B",
+              "form": "DLWWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 18,
+                "draw": 5,
+                "lose": 15,
+                "goals": { "for": 44, "against": 42 }
+              },
+              "home": {
+                "played": 19,
+                "win": 14,
+                "draw": 2,
+                "lose": 3,
+                "goals": { "for": 32, "against": 17 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 3,
+                "lose": 12,
+                "goals": { "for": 12, "against": 25 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 125,
+                "name": "America Mineiro",
+                "logo": "https://media.api-sports.io/football/teams/125.png"
+              },
+              "points": 55,
+              "goalsDiff": 5,
+              "group": "Serie B",
+              "form": "WDDLL",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 16,
+                "draw": 7,
+                "lose": 15,
+                "goals": { "for": 63, "against": 58 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 4,
+                "lose": 7,
+                "goals": { "for": 33, "against": 30 }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 3,
+                "lose": 8,
+                "goals": { "for": 30, "against": 28 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 2233,
+                "name": "America-RN",
+                "logo": "https://media.api-sports.io/football/teams/2233.png"
+              },
+              "points": 54,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "DDLDD",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 14,
+                "draw": 12,
+                "lose": 12,
+                "goals": { "for": 60, "against": 61 }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 5,
+                "lose": 3,
+                "goals": { "for": 37, "against": 27 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 7,
+                "lose": 9,
+                "goals": { "for": 23, "against": 34 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 122,
+                "name": "Parana",
+                "logo": "https://media.api-sports.io/football/teams/122.png"
+              },
+              "points": 52,
+              "goalsDiff": 3,
+              "group": "Serie B",
+              "form": "DWWWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 14,
+                "draw": 10,
+                "lose": 14,
+                "goals": { "for": 50, "against": 47 }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 4,
+                "lose": 4,
+                "goals": { "for": 31, "against": 16 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 6,
+                "lose": 10,
+                "goals": { "for": 19, "against": 31 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 129,
+                "name": "Ceara",
+                "logo": "https://media.api-sports.io/football/teams/129.png"
+              },
+              "points": 47,
+              "goalsDiff": -1,
+              "group": "Serie B",
+              "form": "DLLDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 11,
+                "lose": 15,
+                "goals": { "for": 51, "against": 52 }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 6,
+                "lose": 6,
+                "goals": { "for": 32, "against": 27 }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 5,
+                "lose": 9,
+                "goals": { "for": 19, "against": 25 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 754,
+                "name": "ABC",
+                "logo": "https://media.api-sports.io/football/teams/754.png"
+              },
+              "points": 45,
+              "goalsDiff": -2,
+              "group": "Serie B",
+              "form": "DDDLW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 12,
+                "lose": 15,
+                "goals": { "for": 50, "against": 52 }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 5,
+                "lose": 7,
+                "goals": { "for": 27, "against": 23 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 7,
+                "lose": 8,
+                "goals": { "for": 23, "against": 29 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 1207,
+                "name": "ASA",
+                "logo": "https://media.api-sports.io/football/teams/1207.png"
+              },
+              "points": 44,
+              "goalsDiff": -8,
+              "group": "Serie B",
+              "form": "LLLLW",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 13,
+                "draw": 5,
+                "lose": 20,
+                "goals": { "for": 48, "against": 56 }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 3,
+                "lose": 6,
+                "goals": { "for": 35, "against": 25 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 2,
+                "lose": 14,
+                "goals": { "for": 13, "against": 31 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 794,
+                "name": "Bragantino",
+                "logo": "https://media.api-sports.io/football/teams/794.png"
+              },
+              "points": 44,
+              "goalsDiff": -8,
+              "group": "Serie B",
+              "form": "WWWLW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 8,
+                "lose": 18,
+                "goals": { "for": 45, "against": 53 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": { "for": 31, "against": 27 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 3,
+                "lose": 12,
+                "goals": { "for": 14, "against": 26 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 153,
+                "name": "BOA",
+                "logo": "https://media.api-sports.io/football/teams/153.png"
+              },
+              "points": 44,
+              "goalsDiff": -12,
+              "group": "Serie B",
+              "form": "LDLDD",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 11,
+                "lose": 16,
+                "goals": { "for": 51, "against": 63 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 6,
+                "lose": 5,
+                "goals": { "for": 27, "against": 24 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 5,
+                "lose": 11,
+                "goals": { "for": 24, "against": 39 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 7817,
+                "name": "Guaratinguet\u00e1",
+                "logo": "https://media.api-sports.io/football/teams/7817.png"
+              },
+              "points": 43,
+              "goalsDiff": -22,
+              "group": "Serie B",
+              "form": "WWWLW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 13,
+                "draw": 4,
+                "lose": 21,
+                "goals": { "for": 41, "against": 63 }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 2,
+                "lose": 7,
+                "goals": { "for": 23, "against": 22 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 2,
+                "lose": 14,
+                "goals": { "for": 18, "against": 41 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 146,
+                "name": "CRB",
+                "logo": "https://media.api-sports.io/football/teams/146.png"
+              },
+              "points": 42,
+              "goalsDiff": -20,
+              "group": "Serie B",
+              "form": "WWWLW",
+              "status": "up",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 6,
+                "lose": 20,
+                "goals": { "for": 47, "against": 67 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 3,
+                "lose": 8,
+                "goals": { "for": 26, "against": 26 }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 3,
+                "lose": 12,
+                "goals": { "for": 21, "against": 41 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 138,
+                "name": "Guarani Campinas",
+                "logo": "https://media.api-sports.io/football/teams/138.png"
+              },
+              "points": 41,
+              "goalsDiff": -11,
+              "group": "Serie B",
+              "form": "LLLWL",
+              "status": "down",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 10,
+                "draw": 11,
+                "lose": 17,
+                "goals": { "for": 36, "against": 47 }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": { "for": 23, "against": 19 }
+              },
+              "away": {
+                "played": 19,
+                "win": 2,
+                "draw": 6,
+                "lose": 11,
+                "goals": { "for": 13, "against": 28 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 12277,
+                "name": "Ipatinga",
+                "logo": "https://media.api-sports.io/football/teams/12277.png"
+              },
+              "points": 31,
+              "goalsDiff": -35,
+              "group": "Serie B",
+              "form": "LLLWL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 8,
+                "draw": 7,
+                "lose": 23,
+                "goals": { "for": 38, "against": 73 }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 4,
+                "lose": 8,
+                "goals": { "for": 25, "against": 29 }
+              },
+              "away": {
+                "played": 19,
+                "win": 1,
+                "draw": 3,
+                "lose": 15,
+                "goals": { "for": 13, "against": 44 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 4655,
+                "name": "Gr\u00eamio Barueri",
+                "logo": "https://media.api-sports.io/football/teams/4655.png"
+              },
+              "points": 30,
+              "goalsDiff": -31,
+              "group": "Serie B",
+              "form": "LWLDL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 7,
+                "draw": 9,
+                "lose": 22,
+                "goals": { "for": 38, "against": 69 }
+              },
+              "home": {
+                "played": 19,
+                "win": 4,
+                "draw": 6,
+                "lose": 9,
+                "goals": { "for": 19, "against": 30 }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 3,
+                "lose": 13,
+                "goals": { "for": 19, "against": 39 }
+              },
+              "update": "2018-02-15T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -11,12 +11,14 @@
     font-size: 1.5rem;
     background-color: $primary;
     border-radius: 15px 15px 0 0;
-    img{
+    .titulo-img{
         height: 100%;
     }
 }
 @media only screen and (max-width: 600px) {
-    .titulo img{
-    height: 50%;
+    .titulo {
+        .titulo-text{
+            display: none;
+        }
     }
 }

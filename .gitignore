@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 old-files/
+src/assets/api url.txt
